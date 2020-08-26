@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+/* 
+body {
+    overflow-x: hidden;
+} */
+
+.home {
+    color: #9f0e31;
+
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Droid Serif";
+}
+
+.MainHeaderNav {
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.05);
+    transition: all .65s ease-in-out;
+    height: 65px;
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    padding: 7px;
+}
+
+button:hover,
+button:active {
+    color: black;
+    cursor: pointer;
+}
+
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+
+.burger {
+    display: none;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search input[type=text] {
+    font-size: 17px;
+    width: 70%;
+}
+
+.search button {
+    background: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media (max-width:1024px) {
+    .burger{
+        display: block;
+    }
+    nav li {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    nav {
+        padding: 3px;
+    }
+    .home {
+        font-size: 16px;
+    }
+}
+
+
+/* .nav-active {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: 92vh;
+    right: 0px;
+    top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: #810725;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+    color:white;
+} */
+
+/* .Right-Header {
+    flex: 1 2 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Left-Header {
+    flex: 1 2 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.MainHeader {
+    float: center;
+    height: 140px;
+    width: 100%;
+
+    display: inline-flex;
+    overflow: hidden;
+} */

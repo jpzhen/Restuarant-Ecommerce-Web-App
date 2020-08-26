@@ -1,0 +1,82 @@
+.item {
+    padding: 20px 30px;
+    display: flex;
+    width: center;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+.imagine img {
+    margin-right: 50px;
+    height: 150px;
+    width: 150px;
+    flex: 1; 
+}
+
+.description {
+    margin-right: 60px;
+    width: 115px;
+}
+
+.price {
+    width: 83px;
+    text-align: center;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.quantity {
+    width: 55px;
+    text-align: center;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.plusminus {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:.5em;
+}
+
+.paybutt {
+    font-size: 14px;
+    height: 50px;
+    width: 100px;
+    border-radius:2em;
+    border: none;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:salmon;
+    text-align:center;
+}
+
+.OrderTable {
+    width: 20%;
+    height: 50%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.left { 
+    text-align: left;
+}
+
+.right { 
+    text-align: right;
+}
+
+.delete {
+    width: 83px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+}
+
+@media (max-width:1024px) {
+    .OrderTable {
+        width: 40%;
+    }
+}
+

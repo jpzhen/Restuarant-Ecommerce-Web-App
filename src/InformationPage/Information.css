@@ -1,0 +1,49 @@
+.InfoP {
+    margin: 5px;
+    font-size: 20px;
+    text-align: left;
+
+}
+.MainInfo {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.InformationTable {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+.InfoBlock {
+    padding-top: 75px;
+}
+
+.orange {
+    color:orange;
+}
+
+.map {
+    width:600px;
+    height:350px;
+    border:0;
+}
+
+@media (max-width: 1024px) {
+    .InfoP {
+        font-size: 16px;
+        text-align: center;
+    }
+    .map {
+        width:420px;
+        height:250px;
+    }
+
+    .InfoBlock {
+        padding-top: 10px;
+    }
+    .InformationTable {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,105 @@
+.Food-Type {
+    padding: 10px 24px;
+    margin: 0 0 10px 0;
+    border: 1px solid #9f0e31;
+    background-color: #9f0e31;
+}
+.PageTitle {
+    padding: 50px;
+    margin: 0px;
+}
+@media screen and (max-width:1024px) {
+    .PageTitle {padding: 25px;}
+}
+.Subtitle {
+    color: #9f0e31;
+}
+
+.SubtitleText {
+    text-align: left;
+    color: #9f0e31;
+    font-size: 28px;
+}
+
+.Nav-bar {
+    font-size: 22px;
+    color: black;
+    border-right: 1px solid #000000;
+    padding: 5px;
+}
+.CategoryBar {
+    color: rgba(0,0,0,0.13);
+    margin: 10px;
+    text-align: left;
+}
+.Nav-bar-Last {
+    font-size: 22px;
+    color: black;
+    padding: 5px;;
+}
+
+.DishBlock {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+.FoodBlockText{
+    text-align: left;
+}
+
+.FoodBlockText{
+    text-align: left;
+}
+
+.trHeader {
+    margin: 10px;
+    padding: 10px;
+}
+
+.column button:hover,
+.column button:active {
+    color: black;
+    background-color: #fa923f;
+}
+
+td { 
+    align-items: center;
+}
+
+.tdRight{
+    width: 15%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.textMode {
+    margin: 0;
+    padding-right: 5px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.TextTable {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+    table-layout:fixed;
+    border-collapse: collapse;
+}
+
+.dots {
+    vertical-align:bottom;
+    background-image:radial-gradient(black 1px, white 0px);
+    background-size: 8px 8px;
+    background-repeat:repeat-x;
+    background-position: left bottom;
+}
+

@@ -1,0 +1,49 @@
+.orderModal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+.ImgModal {
+    position: fixed;
+    z-index: 500;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    top: 30%; 
+    margin-left: -150px;
+    margin-top: -150px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.TextModal {
+    border-radius: 12px;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    left: 50%;
+    top: 30%;
+    box-sizing: border-box;
+    margin-left: -150px;
+    margin-top: -150px;
+    transition: all 0.3s ease-out;
+}
+@media (min-width: 600px) {
+    .orderModal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+@media (max-width: 600px) {
+    .TextModal {
+        left: 45%;
+    }
+}
